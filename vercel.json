@@ -49,199 +49,167 @@
   "rewrites": [
     {
       "source": "/services/fridge-repair",
-      "destination": "/fridge-repair.html"
+      "destination": "/fridge-repair-near-me"
     },
     {
       "source": "/services/refrigerator-repair",
-      "destination": "/fridge-repair.html"
+      "destination": "/fridge-repair-near-me"
     },
     {
       "source": "/services/washer-repair",
-      "destination": "/washer-repair.html"
+      "destination": "/washer-repair-near-me"
     },
     {
       "source": "/services/dryer-repair",
-      "destination": "/dryer-repair.html"
+      "destination": "/dryer-repair-near-me"
     },
     {
       "source": "/services/dishwasher-repair",
-      "destination": "/dishwasher-repair.html"
+      "destination": "/dishwasher-repair-near-me"
     },
     {
       "source": "/services/oven-repair",
-      "destination": "/oven-repair.html"
+      "destination": "/oven-repair-near-me"
     },
     {
       "source": "/services/stove-repair",
-      "destination": "/stove-repair.html"
+      "destination": "/stove-repair-near-me"
     },
     {
       "source": "/services/freezer-repair",
-      "destination": "/fridge-repair.html"
+      "destination": "/fridge-repair-near-me"
     },
     {
       "source": "/services/microwave-repair",
-      "destination": "/oven-repair.html"
+      "destination": "/oven-repair-near-me"
     },
     {
-      "source": "/brands/samsung",
-      "destination": "/samsung-repair.html"
-    },
-    {
-      "source": "/brands/lg",
-      "destination": "/lg-repair.html"
-    },
-    {
-      "source": "/brands/whirlpool",
-      "destination": "/whirlpool-repair.html"
-    },
-    {
-      "source": "/brands/ge",
-      "destination": "/ge-repair.html"
-    },
-    {
-      "source": "/brands/bosch",
-      "destination": "/bosch-repair.html"
-    },
-    {
-      "source": "/brands/frigidaire",
-      "destination": "/frigidaire-repair.html"
-    },
-    {
-      "source": "/brands/kenmore",
-      "destination": "/kenmore-repair.html"
-    },
-    {
-      "source": "/brands/maytag",
-      "destination": "/maytag-repair.html"
-    },
-    {
-      "source": "/brands/kitchenaid",
-      "destination": "/kitchenaid-repair.html"
+      "source": "/brands/:name",
+      "destination": "/"
     },
     {
       "source": "/locations/toronto",
-      "destination": "/toronto.html"
+      "destination": "/fridge-repair-toronto"
     },
     {
       "source": "/locations/scarborough",
-      "destination": "/scarborough.html"
+      "destination": "/fridge-repair-scarborough"
     },
     {
       "source": "/locations/north-york",
-      "destination": "/north-york.html"
+      "destination": "/fridge-repair-north-york"
     },
     {
       "source": "/locations/etobicoke",
-      "destination": "/etobicoke.html"
+      "destination": "/fridge-repair-etobicoke"
     },
     {
       "source": "/locations/mississauga",
-      "destination": "/mississauga.html"
+      "destination": "/fridge-repair-mississauga"
     },
     {
       "source": "/locations/brampton",
-      "destination": "/brampton.html"
+      "destination": "/fridge-repair-brampton"
     },
     {
       "source": "/locations/vaughan",
-      "destination": "/vaughan.html"
+      "destination": "/fridge-repair-vaughan"
     },
     {
       "source": "/locations/richmond-hill",
-      "destination": "/richmond-hill.html"
+      "destination": "/fridge-repair-richmond-hill"
     },
     {
       "source": "/locations/markham",
-      "destination": "/markham.html"
+      "destination": "/fridge-repair-markham"
     },
     {
       "source": "/locations/oakville",
-      "destination": "/oakville.html"
+      "destination": "/fridge-repair-oakville"
     },
     {
       "source": "/locations/burlington",
-      "destination": "/burlington.html"
+      "destination": "/fridge-repair-burlington"
     },
     {
       "source": "/locations/pickering",
-      "destination": "/pickering.html"
+      "destination": "/fridge-repair-pickering"
     },
     {
       "source": "/locations/ajax",
-      "destination": "/ajax.html"
+      "destination": "/fridge-repair-ajax"
     },
     {
       "source": "/locations/whitby",
-      "destination": "/whitby.html"
+      "destination": "/fridge-repair-whitby"
     },
     {
       "source": "/locations/oshawa",
-      "destination": "/oshawa.html"
+      "destination": "/fridge-repair-oshawa"
     },
     {
       "source": "/areas/toronto",
-      "destination": "/toronto.html"
+      "destination": "/fridge-repair-toronto"
     },
     {
       "source": "/areas/scarborough",
-      "destination": "/scarborough.html"
+      "destination": "/fridge-repair-scarborough"
     },
     {
       "source": "/areas/north-york",
-      "destination": "/north-york.html"
+      "destination": "/fridge-repair-north-york"
     },
     {
       "source": "/areas/etobicoke",
-      "destination": "/etobicoke.html"
+      "destination": "/fridge-repair-etobicoke"
     },
     {
       "source": "/areas/mississauga",
-      "destination": "/mississauga.html"
+      "destination": "/fridge-repair-mississauga"
     },
     {
       "source": "/areas/brampton",
-      "destination": "/brampton.html"
+      "destination": "/fridge-repair-brampton"
     },
     {
       "source": "/areas/vaughan",
-      "destination": "/vaughan.html"
+      "destination": "/fridge-repair-vaughan"
     },
     {
       "source": "/areas/richmond-hill",
-      "destination": "/richmond-hill.html"
+      "destination": "/fridge-repair-richmond-hill"
     },
     {
       "source": "/areas/markham",
-      "destination": "/markham.html"
+      "destination": "/fridge-repair-markham"
     },
     {
       "source": "/areas/oakville",
-      "destination": "/oakville.html"
+      "destination": "/fridge-repair-oakville"
     },
     {
       "source": "/areas/burlington",
-      "destination": "/burlington.html"
+      "destination": "/fridge-repair-burlington"
     },
     {
       "source": "/areas/pickering",
-      "destination": "/pickering.html"
+      "destination": "/fridge-repair-pickering"
     },
     {
       "source": "/areas/ajax",
-      "destination": "/ajax.html"
+      "destination": "/fridge-repair-ajax"
     },
     {
       "source": "/areas/whitby",
-      "destination": "/whitby.html"
+      "destination": "/fridge-repair-whitby"
     },
     {
       "source": "/areas/oshawa",
-      "destination": "/oshawa.html"
+      "destination": "/fridge-repair-oshawa"
     },
     {
       "source": "/blog",
-      "destination": "/blog/index.html"
+      "destination": "/blog/index"
     }
   ],
   "redirects": [
