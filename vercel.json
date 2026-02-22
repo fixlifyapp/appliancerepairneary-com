@@ -84,8 +84,40 @@
       "destination": "/oven-repair-near-me"
     },
     {
-      "source": "/brands/:name",
-      "destination": "/"
+      "source": "/brands/samsung",
+      "destination": "/samsung-repair"
+    },
+    {
+      "source": "/brands/lg",
+      "destination": "/lg-repair"
+    },
+    {
+      "source": "/brands/whirlpool",
+      "destination": "/whirlpool-repair"
+    },
+    {
+      "source": "/brands/ge",
+      "destination": "/ge-repair"
+    },
+    {
+      "source": "/brands/bosch",
+      "destination": "/bosch-repair"
+    },
+    {
+      "source": "/brands/frigidaire",
+      "destination": "/frigidaire-repair"
+    },
+    {
+      "source": "/brands/kenmore",
+      "destination": "/kenmore-repair"
+    },
+    {
+      "source": "/brands/maytag",
+      "destination": "/maytag-repair"
+    },
+    {
+      "source": "/brands/kitchenaid",
+      "destination": "/kitchenaid-repair"
     },
     {
       "source": "/locations/toronto",
