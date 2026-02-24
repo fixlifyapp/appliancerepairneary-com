@@ -40,6 +40,7 @@
           "addressCountry": "CA"
         },
         "openingHours": ["Mo-Fr 08:00-20:00", "Sa 08:00-20:00", "Su 09:00-18:00"],
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "3800"},
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Appliance Repair Services",
@@ -544,6 +545,11 @@
     <div class="booking-inner">
       <span class="section-label">Online Booking</span>
       <h2 class="section-title" style="text-align:center;">Book Your Repair Online</h2>
+      <p style="color:var(--gray-600);margin-bottom:16px;font-size:14px;text-align:center;">
+        Explore: <a href="/services" style="color:var(--blue-mid);font-weight:600;">Our Services</a> &nbsp;&middot;&nbsp;
+        <a href="/pricing" style="color:var(--blue-mid);font-weight:600;">Pricing</a> &nbsp;&middot;&nbsp;
+        <a href="/areas" style="color:var(--blue-mid);font-weight:600;">Service Areas</a>
+      </p>
       <p style="color:var(--gray-600);margin-bottom:32px;font-size:16px;text-align:center;">
         Choose a convenient date and time. A local technician near you will be dispatched to your home.
       </p>
@@ -559,6 +565,67 @@
     </div>
   </div>
 </section>
+
+<!-- ============================
+     FAQ SECTION
+============================= -->
+<section class="faq" id="faq" style="padding:72px 0;background:var(--white);">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">FAQ</span>
+      <h2 class="section-title">Contact &amp; Booking Questions</h2>
+      <p class="section-subtitle">Common questions about how to reach us and what to expect when you call.</p>
+    </div>
+    <div style="max-width:800px;display:flex;flex-direction:column;gap:16px;">
+      <div style="background:var(--blue-pale);border:1px solid rgba(33,150,243,.2);border-radius:var(--radius-md);padding:22px 24px;">
+        <h3 style="font-size:16px;color:var(--navy);margin-bottom:8px;">How do I book same-day appliance repair?</h3>
+        <p style="font-size:14px;color:var(--gray-600);line-height:1.7;margin:0;">Call (437) 524-1053 or use the online booking form on this page. For same-day service, call before noon on any weekday or Saturday. A local technician near your address will be dispatched with a 2-hour arrival window.</p>
+      </div>
+      <div style="background:var(--blue-pale);border:1px solid rgba(33,150,243,.2);border-radius:var(--radius-md);padding:22px 24px;">
+        <h3 style="font-size:16px;color:var(--navy);margin-bottom:8px;">Do you charge extra for evening or weekend calls?</h3>
+        <p style="font-size:14px;color:var(--gray-600);line-height:1.7;margin:0;">No. We charge the same standard rates regardless of the time or day. Evenings, Saturdays, and Sundays are all at standard pricing. We are open Monday–Saturday 8am–8pm and Sunday 9am–6pm.</p>
+      </div>
+      <div style="background:var(--blue-pale);border:1px solid rgba(33,150,243,.2);border-radius:var(--radius-md);padding:22px 24px;">
+        <h3 style="font-size:16px;color:var(--navy);margin-bottom:8px;">How quickly will a technician arrive at my address?</h3>
+        <p style="font-size:14px;color:var(--gray-600);line-height:1.7;margin:0;">In most GTA areas, same-day bookings result in a technician arriving within 1–4 hours. We dispatch the nearest available certified technician to your specific address, not just the first available tech in the city.</p>
+      </div>
+      <div style="background:var(--blue-pale);border:1px solid rgba(33,150,243,.2);border-radius:var(--radius-md);padding:22px 24px;">
+        <h3 style="font-size:16px;color:var(--navy);margin-bottom:8px;">What information should I have ready when I call?</h3>
+        <p style="font-size:14px;color:var(--gray-600);line-height:1.7;margin:0;">Have your full address, the appliance brand and model number (usually on a sticker inside the door or on the back), and a description of the issue ready. This helps us dispatch the right technician with the most likely parts needed for your repair.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Schema: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I book same-day appliance repair?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Call (437) 524-1053 or use the online booking form. For same-day service, call before noon. A local technician near your address will be dispatched with a 2-hour arrival window."}
+    },
+    {
+      "@type": "Question",
+      "name": "Do you charge extra for evening or weekend calls?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No. We charge the same standard rates regardless of the time or day. Hours are Monday-Saturday 8am-8pm and Sunday 9am-6pm."}
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly will a technician arrive at my address?",
+      "acceptedAnswer": {"@type": "Answer", "text": "In most GTA areas, same-day bookings result in a technician arriving within 1-4 hours. We dispatch the nearest available certified technician to your specific address."}
+    },
+    {
+      "@type": "Question",
+      "name": "What information should I have ready when I call?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Have your full address, the appliance brand and model number, and a description of the issue ready. This helps us dispatch the right technician with the most likely parts needed."}
+    }
+  ]
+}
+</script>
 
 <!-- STICKY BAR -->
 <div class="sticky-bar" id="stickyBar" role="complementary" aria-label="Call us">
