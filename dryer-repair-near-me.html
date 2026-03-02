@@ -23,8 +23,7 @@
   <link rel="stylesheet" href="/tokens.css">
 
   <!-- Schema: LocalBusiness + Service -->
-  <script type="application/ld+json">
-  {
+  <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -53,17 +52,29 @@
     },
     {
       "@type": "Service",
-      "name": "Dryer Repair Near Me",
+      "serviceType": "Dryer Repair",
+      "name": "Dryer Repair in Near Me",
       "provider": {
         "@type": "LocalBusiness",
         "name": "Appliance Repair Near Me"
       },
-      "areaServed": "Greater Toronto Area",
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Near Me",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Greater Toronto Area, Ontario, Canada"
+        }
+      },
+      "description": "Professional dryer repair service in Near Me. Same-day appointments available.",
       "offers": {
-        "@type": "Offer",
-        "priceRange": "$100–$300",
-        "description": "Dryer Repair Near Me — same-day service across the GTA, 90-day warranty"
-      }
+        "@type": "AggregateOffer",
+        "priceCurrency": "CAD",
+        "lowPrice": "120",
+        "highPrice": "350"
+      },
+      "termsOfService": "https://nappliancerepair.com/pricing",
+      "serviceOutput": "Repaired appliance with 90-day warranty on parts and labour"
     },
     {
       "@type": "FAQPage",
@@ -87,8 +98,7 @@
       ]
     }
   ]
-}
-  </script>
+}</script>
 
   <!-- Schema: BreadcrumbList -->
   <script type="application/ld+json">

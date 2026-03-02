@@ -23,8 +23,7 @@
   <link rel="stylesheet" href="/tokens.css">
 
   <!-- Schema: LocalBusiness + Service -->
-  <script type="application/ld+json">
-  {
+  <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -53,17 +52,29 @@
     },
     {
       "@type": "Service",
+      "serviceType": "Refrigerator Repair",
       "name": "Refrigerator Repair in Scarborough",
       "provider": {
         "@type": "LocalBusiness",
         "name": "Appliance Repair Near Me"
       },
-      "areaServed": "Scarborough",
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Scarborough",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Greater Toronto Area, Ontario, Canada"
+        }
+      },
+      "description": "Professional refrigerator repair service in Scarborough. Same-day appointments available.",
       "offers": {
-        "@type": "Offer",
-        "priceRange": "$150–$400",
-        "description": "Refrigerator repair in Scarborough — same-day service, 90-day warranty"
-      }
+        "@type": "AggregateOffer",
+        "priceCurrency": "CAD",
+        "lowPrice": "150",
+        "highPrice": "450"
+      },
+      "termsOfService": "https://nappliancerepair.com/pricing",
+      "serviceOutput": "Repaired appliance with 90-day warranty on parts and labour"
     },
     {
       "@type": "FAQPage",
@@ -87,8 +98,7 @@
       ]
     }
   ]
-}
-  </script>
+}</script>
 
   <!-- Schema: BreadcrumbList -->
   <script type="application/ld+json">

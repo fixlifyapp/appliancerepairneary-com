@@ -23,8 +23,7 @@
   <link rel="stylesheet" href="/tokens.css">
 
   <!-- Schema: LocalBusiness + Service + FAQ -->
-  <script type="application/ld+json">
-  {
+  <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -53,17 +52,29 @@
     },
     {
       "@type": "Service",
+      "serviceType": "Oven Repair",
       "name": "Oven Repair in Humber Valley",
       "provider": {
         "@type": "LocalBusiness",
         "name": "Appliance Repair Near Me"
       },
-      "areaServed": "Humber Valley",
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Humber Valley",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Greater Toronto Area, Ontario, Canada"
+        }
+      },
+      "description": "Professional oven repair service in Humber Valley. Same-day appointments available.",
       "offers": {
-        "@type": "Offer",
-        "priceRange": "$130–$400",
-        "description": "Oven repair in Humber Valley — same-day service, 90-day warranty"
-      }
+        "@type": "AggregateOffer",
+        "priceCurrency": "CAD",
+        "lowPrice": "130",
+        "highPrice": "400"
+      },
+      "termsOfService": "https://nappliancerepair.com/pricing",
+      "serviceOutput": "Repaired appliance with 90-day warranty on parts and labour"
     },
     {
       "@type": "FAQPage",
@@ -119,8 +130,7 @@
       ]
     }
   ]
-}
-  </script>
+}</script>
 
   <!-- Schema: BreadcrumbList -->
   <script type="application/ld+json">
