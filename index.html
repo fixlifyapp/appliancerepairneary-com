@@ -336,8 +336,9 @@
     .review-stars span { font-size: 17px; color: #F59E0B; }
     .review-text { font-size: 15px; color: var(--gray-600); line-height: 1.7; flex: 1; margin-bottom: 20px; font-style: italic; }
     .review-author { display: flex; align-items: center; gap: 12px; }
-    .review-avatar { width: 42px; height: 42px; border-radius: 50%; background: linear-gradient(135deg, var(--blue-light), var(--blue-mid)); color: var(--white); font-weight: 700; font-size: 15px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-.review-avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; display: block; }
+    .review-avatar { width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg, var(--blue-light), var(--blue-mid)); color: var(--white); font-weight: 700; font-size: 15px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden; }
+    .review-avatar:has(img) { background: none; }
+    .review-avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; display: block; }
     .review-author-info strong { display: block; font-size: 14px; font-weight: 700; color: var(--navy); }
     .review-author-info span { font-size: 12px; color: var(--gray-400); }
     .reviews-footer { text-align: center; margin-top: 36px; }
